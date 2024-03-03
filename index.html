@@ -3,7 +3,11 @@
     <head>
         <title>Redstone to Image Generator</title>
         <meta charset="utf-8">
-        <script src="https://unpkg.com/merge-images"></script>
+        <script type="importmap">
+            { "imports": {
+                "merge-images": "/node_modules/merge-images/dist/index.es2015.js"
+            } }
+          </script>    
     </head>
     <body>
         <img>

@@ -1,4 +1,4 @@
-//import mergeImages from 'merge-images';
+import mergeImages from 'merge-images';
  
-mergeImages(['/un.png', '/un.png', '/mouth.png'])
+mergeImages(['/un.png', '/un.png', '/un.png'])
   .then(b64 => document.querySelector('img').src = b64);
